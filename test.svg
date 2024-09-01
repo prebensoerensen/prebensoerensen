@@ -1,33 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
   <style>
-    .button {
-      fill: #3498db;
-      rx: 20;
-      ry: 20;
-      transition: fill 0.3s ease, transform 0.2s ease;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    .background {
+      fill: #f3f4f6;
     }
-    .button:hover {
-      fill: #e74c3c;
-      transform: translateY(-5px);
+    .title {
+      font-family: 'Arial', sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      fill: #2c3e50;
     }
-    .button-text {
+    .section-title {
       font-family: 'Arial', sans-serif;
       font-size: 24px;
-      fill: white;
-      transition: fill 0.3s ease;
+      font-weight: bold;
+      fill: #2980b9;
     }
-    .button-text:hover {
-      fill: #ecf0f1;
+    .text {
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      fill: #2c3e50;
+    }
+    .link {
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      fill: #3498db;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .hover-effect:hover {
+      fill: #e74c3c;
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
     }
   </style>
 
-  <!-- Button Background -->
-  <rect x="50" y="50" width="900" height="600" class="button" />
+  <!-- Background -->
+  <rect width="100%" height="100%" class="background" />
 
-  <!-- Button Text -->
-  <text x="200" y="120" text-anchor="middle" class="button-text">Hover Over Me!</text>
+  <!-- Title -->
+  <text x="50%" y="60" text-anchor="middle" class="title">Welcome to My GitHub Profile!</text>
 
-  <!-- Button Shadow -->
-  <rect x="55" y="55" width="290" height="90" fill="none" stroke="rgba(0, 0, 0, 0.1)" stroke-width="5" rx="20" ry="20"/>
+  <!-- About Me Section -->
+  <text x="50" y="140" class="section-title">About Me</text>
+  <text x="50" y="180" class="text">
+    I'm a passionate developer with a love for open-source projects and building innovative solutions.
+    Here are some technologies I work with:
+  </text>
+
+  <!-- Skills Section -->
+  <text x="50" y="260" class="section-title">Skills</text>
+  <text x="50" y="300" class="text">- JavaScript</text>
+  <text x="50" y="330" class="text">- Python</text>
+  <text x="50" y="360" class="text">- C++</text>
+  <text x="50" y="390" class="text">- React, Django, Flask</text>
+
+  <!-- Contact Section -->
+  <text x="50" y="470" class="section-title">Connect with Me</text>
+  <text x="50" y="510" class="link hover-effect" onclick="window.open('https://www.linkedin.com/in/yourprofile/', '_blank')">LinkedIn</text>
+  <text x="50" y="540" class="link hover-effect" onclick="window.open('https://twitter.com/yourusername', '_blank')">Twitter</text>
 </svg>
