@@ -1,44 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" preserveAspectRatio="none">
   <style>
     .background {
-      fill: linear-gradient(135deg, #ff7e5f, #feb47b);
-      rx: 20;
-      ry: 20;
+      fill: #ff7e5f; /* Main background color */
     }
-    .title {
-      font-family: 'Arial', sans-serif;
-      font-size: 48px;
-      font-weight: bold;
-      fill: #ffffff;
+    .wave1 {
+      fill: #feb47b; /* Color for the first wave */
+      animation: moveWave1 10s linear infinite;
     }
-    .subtitle {
-      font-family: 'Arial', sans-serif;
-      font-size: 24px;
-      fill: #f0f8ff;
+    .wave2 {
+      fill: #ff7e5f; /* Color for the second wave */
+      animation: moveWave2 8s linear infinite;
     }
-    .arc {
-      fill: none;
-      stroke: rgba(255, 255, 255, 0.7);
-      stroke-width: 8;
-      stroke-linecap: round;
-      animation: rotateArc 10s linear infinite;
-      transform-origin: 400px 100px;
+
+    @keyframes moveWave1 {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-1600px); }
     }
-    @keyframes rotateArc {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+
+    @keyframes moveWave2 {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(1600px); }
     }
   </style>
 
-  <!-- Background with Rounded Corners -->
-  <rect x="0" y="0" width="100%" height="100%" rx="20" ry="20" class="background" />
+  <!-- Main Background -->
+  <rect width="100%" height="100%" class="background" />
+
+  <!-- First Wave -->
+  <path class="wave1" d="M 0 67 C 473,283 822,-40 1600,60 L 1600 200 L 0 200 Z" />
+
+  <!-- Second Wave -->
+  <path class="wave2" d="M 0 150 C 473,323 822,120 1600,160 L 1600 200 L 0 200 Z" />
 
   <!-- Title -->
-  <text x="50%" y="70" text-anchor="middle" class="title">Hi, I am Preben!</text>
+  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ffffff">Hi, I am Preben!</text>
 
   <!-- Subtitle -->
-  <text x="50%" y="130" text-anchor="middle" class="subtitle">Front-End Developer | JavaScript | React</text>
-
-  <!-- Rotating Arc (Segment of a Circle) -->
-  <path class="arc" d="M 100 100 A 400 400 0 0 1 700 100" />
+  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#f0f8ff">Front-End Developer | JavaScript | React</text>
 </svg>
