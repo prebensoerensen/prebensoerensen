@@ -7,11 +7,11 @@
     }
     .wave1 {
       fill: #34495e; /* Medium gray wave */
-      animation: moveWave1 10s linear infinite;
+      animation: moveWave1 20s linear infinite;
     }
     .wave2 {
       fill: #3b5366; /* Lighter gray wave */
-      animation: moveWave2 10s linear infinite;
+      animation: moveWave2 20s linear infinite;
     }
 
     @keyframes moveWave1 {
