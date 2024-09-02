@@ -36,10 +36,10 @@
   <rect width="100%" height="100%" rx="20" ry="20" class="background" />
 
   <!-- First Wave: Larger middle wave -->
-  <path class="wave1" d="M 0 70 C 267 140 533 50 800 70 C 1067 90 1333 20 1600 70 L 1600 300 L 0 300 Z" />
+  <path class="wave1" d="m 0 70 c 300 230 600 -170 800 2 l 0 230 l -800 0 z" />
 
   <!-- Second Wave: Slightly smaller bottom wave -->
-  <path class="wave2" d="M -800 130 C -533 190 -267 90 0 130 C 267 170 533 70 800 130 L 800 300 L -800 300 Z" />
+  <path class="wave2" d="m -800 130 c 300 180 500 -160 800 0 l 0 170 l -800 0 z" />
 
   <!-- Title with Shadow -->
   <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1" filter="url(#textShadow)">Hi, I am Preben!</text>
