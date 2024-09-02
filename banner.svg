@@ -36,3 +36,16 @@
 
   <!-- Main Background with Rounded Corners -->
   <rect width="100%" height="100%" rx="20" ry="20" class="background" />
+
+  <!-- First Wave: Larger middle wave -->
+  <path class="wave1" d="M 0 70 Q 200 100 400 70 Q 600 30 800 70 Q 1000 100 1200 70 Q 1400 30 1600 70 L 1600 370 L 0 370 Z" />
+
+  <!-- Second Wave: Slightly smaller bottom wave -->
+  <path class="wave2" d="M -800 140 Q -600 170 -400 140 Q -200 110 0 140 Q 200 170 400 140 Q 600 110 800 140 L 800 370 L -800 370 Z" />
+
+  <!-- Title with Shadow -->
+  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1" filter="url(#textShadow)">Hi, I am Preben!</text>
+
+  <!-- Subtitle with Shadow -->
+  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#bdc3c7" filter="url(#textShadow)">Front-End Developer | JavaScript | React</text>
+</svg>
