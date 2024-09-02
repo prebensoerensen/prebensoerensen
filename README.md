@@ -11,10 +11,12 @@ I'm a front-end developer focused on building interactive and user-friendly web 
 - **JavaScript/TypeScript**
 - **React**
 - **Node/Express**
-- **Google Maps API**
+- **Figma**
+- **MongoDB**
+- **SQL**
 - **Google Cloud Platform (GCP)**
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)
+- [LinkedIn](https://www.linkedin.com/in/preben-s%C3%B8rensen-9a26ab321/)
 - [GitHub](https://github.com/prebensoerensen)
