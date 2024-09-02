@@ -5,11 +5,11 @@
     }
     .wave1 {
       fill: #feb47b; /* Color for the first wave */
-      animation: moveWave1 10s linear infinite;
+      animation: moveWave1 30s linear infinite;
     }
     .wave2 {
       fill: #ff7e5f; /* Color for the second wave */
-      animation: moveWave2 8s linear infinite;
+      animation: moveWave2 30s linear infinite;
     }
 
     @keyframes moveWave1 {
