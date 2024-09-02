@@ -25,6 +25,13 @@
     }
   </style>
 
+  <!-- Filters for Text Shadow -->
+  <defs>
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
   <!-- Main Background with Rounded Corners -->
   <rect width="100%" height="100%" rx="20" ry="20" class="background" />
 
@@ -34,9 +41,9 @@
   <!-- Second Wave: Slightly smaller bottom wave -->
   <path class="wave2" d="M -800 130 C -533 190 -267 90 0 130 C 267 170 533 70 800 130 L 800 300 L -800 300 Z" />
 
-  <!-- Title -->
-  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1">Hi, I am Preben!</text>
+  <!-- Title with Shadow -->
+  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1" filter="url(#textShadow)">Hi, I am Preben!</text>
 
-  <!-- Subtitle -->
-  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#bdc3c7">Front-End Developer | JavaScript | React</text>
+  <!-- Subtitle with Shadow -->
+  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#bdc3c7" filter="url(#textShadow)">Front-End Developer | JavaScript | React</text>
 </svg>
