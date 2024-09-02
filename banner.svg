@@ -14,23 +14,23 @@
 
     @keyframes moveWave1 {
       0% { transform: translateX(0); }
-      100% { transform: translateX(-1600px); }
+      100% { transform: translateX(-800px); }
     }
 
     @keyframes moveWave2 {
       0% { transform: translateX(0); }
-      100% { transform: translateX(1600px); }
+      100% { transform: translateX(800px); }
     }
   </style>
 
   <!-- Main Background -->
   <rect width="100%" height="100%" class="background" />
 
-  <!-- First Wave -->
-  <path class="wave1" d="M 0 67 C 473,283 822,-40 1600,60 L 1600 200 L 0 200 Z" />
+  <!-- First Wave: Twice the width of the viewbox -->
+  <path class="wave1" d="M 0 67 C 200 200 600 0 800 67 C 1000 200 1400 0 1600 67 L 1600 200 L 0 200 Z" />
 
-  <!-- Second Wave -->
-  <path class="wave2" d="M 0 150 C 473,323 822,120 1600,160 L 1600 200 L 0 200 Z" />
+  <!-- Second Wave: Twice the width of the viewbox -->
+  <path class="wave2" d="M 0 150 C 200 250 600 100 800 150 C 1000 250 1400 100 1600 150 L 1600 200 L 0 200 Z" />
 
   <!-- Title -->
   <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ffffff">Hi, I am Preben!</text>
