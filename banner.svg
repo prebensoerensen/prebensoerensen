@@ -28,11 +28,11 @@
   <!-- Main Background with Rounded Corners -->
   <rect width="100%" height="100%" rx="20" ry="20" class="background" />
 
-  <!-- First Wave: Smooth, curvy wave -->
-  <path class="wave1" d="M 0 120 C 267 200 533 40 800 120 C 1067 200 1333 40 1600 120 L 1600 300 L 0 300 Z" />
+  <!-- First Wave: Smooth, curvy wave taking up more of the SVG -->
+  <path class="wave1" d="M 0 80 C 267 160 533 60 800 80 C 1067 100 1333 40 1600 80 L 1600 300 L 0 300 Z" />
 
-  <!-- Second Wave: Smooth, curvy wave -->
-  <path class="wave2" d="M 0 150 C 267 250 533 100 800 150 C 1067 250 1333 100 1600 150 L 1600 300 L 0 300 Z" />
+  <!-- Second Wave: Smooth, curvy wave taking up more of the SVG, corrected direction -->
+  <path class="wave2" d="M -800 100 C -533 180 -267 80 0 100 C 267 120 533 20 800 100 L 800 300 L -800 300 Z" />
 
   <!-- Title -->
   <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1">Hi, I am Preben!</text>
