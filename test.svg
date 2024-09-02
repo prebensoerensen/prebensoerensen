@@ -53,7 +53,7 @@
   <text x="50" y="330" class="text">- React</text>
   <text x="50" y="360" class="text">- Node/Express</text>
   <text x="50" y="390" class="text">- Google Maps API</text>
-  <text x="50" y="390" class="text">- GCP</text>
+  <text x="50" y="420" class="text">- GCP</text>
 
   <!-- Contact Section -->
   <text x="50" y="470" class="section-title">Connect with Me</text>
