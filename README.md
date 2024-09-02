@@ -1,5 +1,3 @@
-# Welcome to My GitHub Profile!
-
 ![Banner](./banner.svg)
 
 ## About Me
