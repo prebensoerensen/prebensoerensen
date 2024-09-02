@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" preserveAspectRatio="none">
   <style>
     .background {
-      fill: #ff7e5f; /* Main background color */
+      fill: #2c3e50; /* Dark gray background color */
+      rx: 20; /* Rounded corners */
+      ry: 20;
     }
     .wave1 {
-      fill: #feb47b; /* Color for the first wave */
+      fill: #34495e; /* Medium gray wave */
       animation: moveWave1 30s linear infinite;
     }
     .wave2 {
-      fill: #ff7e5f; /* Color for the second wave */
+      fill: #3b5366; /* Lighter gray wave */
       animation: moveWave2 30s linear infinite;
     }
 
@@ -23,18 +25,18 @@
     }
   </style>
 
-  <!-- Main Background -->
-  <rect width="100%" height="100%" class="background" />
+  <!-- Main Background with Rounded Corners -->
+  <rect width="100%" height="100%" rx="20" ry="20" class="background" />
 
-  <!-- First Wave: Smooth curve -->
-  <path class="wave1" d="M 0 67 C 200 150 600 0 800 67 C 1000 134 1400 -16 1600 67 L 1600 200 L 0 200 Z" />
+  <!-- First Wave: Smooth, curvy wave -->
+  <path class="wave1" d="M 0 120 C 267 200 533 40 800 120 C 1067 200 1333 40 1600 120 L 1600 300 L 0 300 Z" />
 
-  <!-- Second Wave: Smooth curve -->
-  <path class="wave2" d="M -800 150 C -600 125 -200 175 0 150 C 200 125 600 175 800 150 L 800 200 L -800 200 Z" />
+  <!-- Second Wave: Smooth, curvy wave -->
+  <path class="wave2" d="M 0 150 C 267 250 533 100 800 150 C 1067 250 1333 100 1600 150 L 1600 300 L 0 300 Z" />
 
   <!-- Title -->
-  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ffffff">Hi, I am Preben!</text>
+  <text x="50%" y="70" text-anchor="middle" font-family="Arial" font-size="48px" font-weight="bold" fill="#ecf0f1">Hi, I am Preben!</text>
 
   <!-- Subtitle -->
-  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#f0f8ff">Front-End Developer | JavaScript | React</text>
+  <text x="50%" y="130" text-anchor="middle" font-family="Arial" font-size="24px" fill="#bdc3c7">Front-End Developer | JavaScript | React</text>
 </svg>
