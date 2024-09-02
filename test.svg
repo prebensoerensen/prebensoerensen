@@ -2,6 +2,7 @@
   <style>
     .background {
       fill: #f3f4f6;
+      border-radius: 0.5rem;
     }
     .title {
       font-family: 'Arial', sans-serif;
