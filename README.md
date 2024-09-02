@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile!
 
-![Banner](./test.svg)
+![Banner](./banner.svg)
 
 ## About Me
 
