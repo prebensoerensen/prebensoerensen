@@ -1,1 +1,1 @@
-
+![Test SVG](./test.svg)
