@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <style>
     .background {
       fill: linear-gradient(135deg, #ff7e5f, #feb47b);
@@ -22,7 +22,7 @@
       stroke-width: 8;
       stroke-linecap: round;
       animation: rotateArc 10s linear infinite;
-      transform-origin: center;
+      transform-origin: 400px 100px;
     }
     @keyframes rotateArc {
       from { transform: rotate(0deg); }
@@ -40,5 +40,5 @@
   <text x="50%" y="130" text-anchor="middle" class="subtitle">Front-End Developer | JavaScript | React</text>
 
   <!-- Rotating Arc (Segment of a Circle) -->
-  <path class="arc" d="M 150 100 A 400 400 0 0 1 650 100" />
+  <path class="arc" d="M 100 100 A 400 400 0 0 1 700 100" />
 </svg>
