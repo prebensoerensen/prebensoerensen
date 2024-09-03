@@ -12,7 +12,7 @@ I'm a front-end developer focused on building interactive and user-friendly web 
 - **Figma**
 - **MongoDB**
 - **SQL**
-- **Google Cloud Platform (GCP)**
+- **Google Cloud Platform**
 
 ## Connect with Me
 
