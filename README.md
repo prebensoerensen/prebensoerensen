@@ -22,5 +22,5 @@ I mitt daglige arbeid hos Elfly bruker jeg flere teknologier. På frontend-siden
 
 ## Kontakt
 - [LinkedIn](https://www.linkedin.com/in/preben-s%C3%B8rensen-9a26ab321/)
-- [Portfolio](https://prebensoerensen.github.io/Portfolio/)
+- [Portfolio (WIP)](https://prebensoerensen.github.io/Portfolio/)
 - presor1@gmail.com
