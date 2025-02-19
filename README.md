@@ -1,5 +1,5 @@
 # Preben Sørensen
-## Junior Fullstackutvikler
+## Fullstackutvikler
 
 ## Om meg
 Jeg heter Preben og arbeider som fullstackutvikler. Min faglige interesse omfatter utvikling av interaktive og brukervennlige webapplikasjoner. I mitt arbeid bruker jeg hovedsakelig JavaScript, React og andre moderne webteknologier.
