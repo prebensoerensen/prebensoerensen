@@ -2,9 +2,9 @@
 ## Junior Fullstackutvikler
 
 ## Om meg
-Jeg heter Preben og arbeider som junior fullstackutvikler. Min faglige interesse omfatter utvikling av interaktive og brukervennlige webapplikasjoner. I mitt arbeid bruker jeg hovedsakelig JavaScript, React og andre moderne webteknologier.
+Jeg heter Preben og arbeider som fullstackutvikler. Min faglige interesse omfatter utvikling av interaktive og brukervennlige webapplikasjoner. I mitt arbeid bruker jeg hovedsakelig JavaScript, React og andre moderne webteknologier.
 
-For tiden har jeg en internstilling som junior fullstackutvikler hos Elfly Group, et selskap basert i Bergen. Elfly Group utvikler et elektrisk fly designet for småbanenettet, samt egnede landingsplasser på vann. Mer informasjon om selskapet er tilgjengelig på deres nettside: [Elfly](https://el-fly.no/).
+For tiden har jeg en stilling som fullstackutvikler hos Elfly Group, et selskap basert i Bergen. Elfly Group utvikler et elektrisk fly designet for småbanenettet, samt egnede landingsplasser på vann. Mer informasjon om selskapet er tilgjengelig på deres nettside: [Elfly](https://el-fly.no/).
 
 I min rolle hos Elfly Group har jeg utviklet en kartapplikasjon som brukes i selskapets strategiske planlegging. Denne applikasjonen benyttes til å visualisere og planlegge flyruter, samt til å presentere flyets egenskaper for potensielle kunder og investorer.
 
