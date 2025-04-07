@@ -2,13 +2,16 @@
 ## Fullstackutvikler
 
 ## Om meg
-Jeg heter Preben og arbeider som fullstackutvikler. Min faglige interesse omfatter utvikling av interaktive og brukervennlige webapplikasjoner. I mitt arbeid bruker jeg hovedsakelig JavaScript, React og andre moderne webteknologier.
+Jeg heter Preben og jobber som fullstackutvikler med spesiell interesse for interaktive og brukervennlige webapplikasjoner. 
+Jeg arbeider hovedsakelig med JavaScript/TypeScript, React og andre moderne teknologier, men er også innom flere relaterte områder.
 
-For tiden har jeg en stilling som fullstackutvikler hos Elfly Group, et selskap basert i Bergen. Elfly Group utvikler et elektrisk fly designet for småbanenettet, samt egnede landingsplasser på vann. Mer informasjon om selskapet er tilgjengelig på deres nettside: [Elfly](https://el-fly.no/).
+For tiden jobber jeg hos Elfly Group i Bergen, et selskap som utvikler elektriske fly tilpasset kortbanenettet og vannbaserte landingsplasser.
+Her har jeg utviklet en kartapplikasjon som brukes til strategisk planlegging, visualisering av flyruter og presentasjon av flyets egenskaper til kunder og investorer.
 
-I min rolle hos Elfly Group har jeg utviklet en kartapplikasjon som brukes i selskapets strategiske planlegging. Denne applikasjonen benyttes til å visualisere og planlegge flyruter, samt til å presentere flyets egenskaper for potensielle kunder og investorer.
+I det daglige bruker jeg React og Google APIer på frontend-siden, og MongoDB, Node, Express samt Google Cloud Platform på backend-siden.
+Dette har gitt meg solid erfaring med moderne webutvikling.
 
-I mitt daglige arbeid hos Elfly bruker jeg flere teknologier. På frontend-siden arbeider jeg med React og Google Maps APIer, mens backend-arbeidet involverer MongoDB, Node, Express og Google Cloud Platform. Denne erfaringen bidrar til å styrke min kompetanse som fullstackutvikler og gir meg innsikt i moderne webutviklingspraksis.
+Les gjerne mer om selskapet på [Elflys nettside](https://el-fly.no/).
 
 ## Ferdigheter
 - **JavaScript/TypeScript**
